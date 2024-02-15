@@ -3,6 +3,7 @@
 
 monorepo 또는 해당 검문소만 개별 repo 로 관리할 예정
 초파고 코드 참조, navigator.mediaDevices 를 이용한 영상인식
+teserract.js 를 이용한 OCR 방식으로 진행할 예정입니다.
 파티 신청이 들어올때마다 자동으로 업데이트 칩니다. (화면 변환 인식)
 어려울 시 초파고처럼 업데이트 "만" 수동으로 하도록 합니다.
 
@@ -11,7 +12,7 @@ api 는 동기화 문제가 있으니 이상한 부분은 직접 사용자가 �
 사용 예정 기술: next, zustand, tanstack query
 CI/CD 는 vercel 로 합니다.
 
-UI 는 어떤거를 사용할지 검토가 필요합니다. (shadcn/ui, MUI)
+UI 는 어떤거를 사용할지 검토가 필요합니다. (shadcn/ui, MUI) (shadcn/ui 로 결정)
 css 는 css module 을 사용합니다.
 모바일로도 가능하게는 합니다.
 
@@ -41,3 +42,4 @@ api 는 https://developer-lostark.game.onstove.com/usage-guide 를 참조합니�
 딜증가량 연산으로 디테일하게 합불 여부를 나누도록 합니다.
 파티신청 넣을때 기존 파티원들의 스펙을 군장검사합니다 (캡처기능 활용)
 여러 아이템 최적재련 계산기를 넣습니다.
+공대모집 게시판을 생성합니다.
